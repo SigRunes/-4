@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 int main() {
-	float d, P = 3.14, L;
+	float d, P, L;
+	P = 3.14;
 	scanf("%f", &d);
 	L = d * P;
-	printf("%f\n", L);
+	printf("%.2f\n", L);
 	return 0;
 }

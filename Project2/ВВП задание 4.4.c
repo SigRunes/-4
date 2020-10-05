@@ -1,9 +1,9 @@
 #include<stdio.h>;
 #include<math.h>;
 
-int main5() {
+int main() {
 	float a, b, c, s, r, p;
-	scanf("%f%f\n", &a, &b);
+	scanf("%f%f", &a, &b);
 	a = pow(a, 2);
 	b = pow(b, 2);
 	c = a / b;

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ВВП задание 4.1.c">
+    <ClCompile Include="..\Project2\ВВП задание 4.3.c">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,9 +1,18 @@
-#include<stdio.h>;
+#include<stdio.h>
+#include<math.h>
 
-int main(void) {
-	int x, y, z, c;
-	scanf("%d%d%d", &x, &y, &z);
-	c = (x - y) + z;
-	printf("%d\n", c);
+int main() {
+	int x, y, s;
+	scanf("%d", &y);
+	for (x = 0; x < 5; x++) {
+		if (y > 10 || y == 0) {
+			s = x + y;
+		}
+		else {
+			s = pow(x,2) + pow(y,2);
+		}
+		printf("%d\n", s);
+	}
 	return 0;
+
 }
