@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ВВп задание 4.5.c" />
     <ClCompile Include="ВВП задание 4.4.c" />
     <ClCompile Include="ВВП задание 4.3.c" />
     <ClCompile Include="ВВП задание 4.1.c" />

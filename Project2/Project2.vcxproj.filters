@@ -27,5 +27,8 @@
     <ClCompile Include="ВВП задание 4.4.c">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+    <ClCompile Include="ВВп задание 4.5.c">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
