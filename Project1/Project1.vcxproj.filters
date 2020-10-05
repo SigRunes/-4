@@ -18,8 +18,5 @@
     <ClCompile Include="1.c">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\Project2\1.c">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

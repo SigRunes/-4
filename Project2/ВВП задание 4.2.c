@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main2() {
+int main() {
 	float d, P = 3.14, L;
 	scanf("%f", &d);
 	L = d * P;
