@@ -1,17 +1,20 @@
 #include<stdio.h>
-#include<math.h>
-
 int main() {
-	int x, y, s;
-	scanf("%d", &y);
-	for (x = 0; x < 5; x++) {
-		if (y > 10 || y == 0) {
-			s = x + y;
+	int arr[5] = { 5,3,1,2,10 };
+	int i = 0;
+	int j = 0;
+	int q;
+	for (i = 0; i < 5 - 1; i++) {
+		for (j = 0; j < 5 - i - 1; j++) {
+			if (arr[j] > arr[j + 1]) {
+				q = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = q;
+			}
 		}
-		else {
-			s = pow(x,2) + pow(y,2);
-		}
-		printf("%d\n", s);
+	}
+	for (i = 0; i < 5; i++) {
+		printf("%d\n", arr[i]);
 	}
 	return 0;
 
