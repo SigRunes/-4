@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d097575e-8a3c-4d1e-bc04-b3f8b297c3c1}</ProjectGuid>
-    <RootNamespace>ВВПзадние53</RootNamespace>
+    <ProjectGuid>{925fc00e-63f0-4ef6-9edf-8b9c15915ce2}</ProjectGuid>
+    <RootNamespace>ВВПзадание7</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ВВП задание 5.5</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="5.5.c" />
+    <ClCompile Include="6.7.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
