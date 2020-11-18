@@ -1,20 +1,21 @@
-#include<stdio.h>; 
+#include<stdio.h>  
 
-int main() {
-    int i, temp, step;
-    int array[] = { 5,3,8,2,6,1 };
+int main(){
+    int i, x, d, j;
+    int array[] = { 1, 3, 6, 7, 8, 2 };
     int n = sizeof(array) / sizeof(int);
-    float k = 1.247;
-    for (step = n - 1; step >= 1; step /= k) {
-        for (i = 0; i < n - step; i++) {
-            if (array[i] > array[i + step]) {
-                temp = array[i];
-                array[i] = array[i + step];
-                array[i + step] = temp;
+    for (d = n / 2; d > 0; d /= 2) {
+        for (i = d; i < n; i++) {
+            x = array[i];
+            for (j = i; j >= d; j -= d) {
+                if (x < array[j - d])
+                    array[j] = array[j - d];
+                else break;
             }
+            array[j] = x;
         }
     }
-    for (i = 0; i < n; i++)
+    for (i = 0; i < 6; i++)
         printf("%d\n", array[i]);
     return 0;
 }
